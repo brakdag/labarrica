@@ -182,6 +182,7 @@ img {
 
 @font-face { font-family: BlackJar; src: url('BLACKJAR.TTF'); } 
 .logo{
+	letter-spacing: 0;
 	font-family: BlackJar;
 	color: #A28769;
 	padding: 0px;
