@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#A28769;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+	width:250px;
+	text-decoration:none;
+}
