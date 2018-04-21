@@ -57,8 +57,8 @@ ul, li {
 	height: 38px;
 	border-top-width: 2px;
 	border-bottom-width: 2px;
-	border-top-style: dotted;
-	border-bottom-style: dotted;
+	border-top-style: solid;
+	border-bottom-style: solid;
 	border-top-color: #A28769;
 	border-bottom-color: #A28769;
 	margin-right: 95px;
@@ -81,7 +81,7 @@ ul, li {
 #base930 #interior_contenido li {
 	margin: 0px;
 	padding: 0px;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: sans-serif,Verdana, Geneva;
 	font-size: 14px;
 	color: #A28769;
 }
@@ -186,11 +186,19 @@ img {
 	font-family: BlackJar;
 	color: #A28769;
 	padding: 0px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 	font-size: 60px;
 	text-shadow: 1px 1px 1px grey ;
+	text-decoration:none;
 }
 .sublogo{
+	font-family:Arial, Helvetica, sans-serif;
 	padding: 0px;
-	font-size: 20px;
-	text-shadow: 1px 1px 1px grey ;
+	font-size: 30px;
+    color: gainsboro;
 }
+
+a{text-decoration:none;color: #A28769;}
