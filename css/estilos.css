@@ -74,14 +74,14 @@ ul, li {
 #base930 #interior_contenido p {
 	margin: 0px;
 	padding: 0px;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: "Open Sans",Verdana, Geneva, sans-serif;
 	font-size: 14px;
 	color: #A28769;
 }
 #base930 #interior_contenido li {
 	margin: 0px;
 	padding: 0px;
-	font-family: sans-serif,Verdana, Geneva;
+	font-family: "Open Sans",sans-serif,Verdana, Geneva;
 	font-size: 14px;
 	color: #A28769;
 }
