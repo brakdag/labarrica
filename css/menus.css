@@ -1,11 +1,12 @@
 @charset "utf-8";
+@font-face { font-family: BlackJar; src: url('BLACKJAR.TTF'); } 
 /* posicion y diseño de botonera principal */
 ul.menu {
 	float:left;
 	display:block;
 	margin-top: 10px;
 	list-style-type:none;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: "Open serif",Verdana, Geneva, sans-serif;
 	font-size: 15px;
 	color: #A28769;
 	letter-spacing: -1px;

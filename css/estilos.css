@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face { font-family: BlackJar; src: url('BLACKJAR.TTF'); } 
+@font-face { font-family: AvenirCondensedHand; src: url('AvenirCondensedHand.ttf'); } 
+@font-face { font-family: JimmyScript-Rg; src: url('JimmyScript-Rg.otf'); } 
+
 /* CSS Document */
 
 body {
@@ -74,15 +78,15 @@ ul, li {
 #base930 #interior_contenido p {
 	margin: 0px;
 	padding: 0px;
-	font-family: "Open Sans",Verdana, Geneva, sans-serif;
-	font-size: 14px;
+	font-family: JimmyScript-Rg,Verdana, Geneva, sans-serif;
+	font-size: 25px;
 	color: #A28769;
 }
 #base930 #interior_contenido li {
 	margin: 0px;
 	padding: 0px;
-	font-family: "Open Sans",sans-serif,Verdana, Geneva;
-	font-size: 14px;
+	font-family: sans-serif,Verdana, Geneva;
+	font-size: 17px;
 	color: #A28769;
 }
 #base930 #interior_contenido #contenido_texto #izquierda {
@@ -180,7 +184,6 @@ img {
 	background: #fff;
 }
 
-@font-face { font-family: BlackJar; src: url('BLACKJAR.TTF'); } 
 .logo{
 	letter-spacing: 0;
 	font-family: BlackJar;
@@ -202,3 +205,4 @@ img {
 }
 
 a{text-decoration:none;color: #A28769;}
+p{font-family: AvenirCondensedHand;}
