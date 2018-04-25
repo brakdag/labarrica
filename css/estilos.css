@@ -1,7 +1,6 @@
 @charset "utf-8";
 @font-face { font-family: BlackJar; src: url('BLACKJAR.TTF'); } 
-@font-face { font-family: AvenirCondensedHand; src: url('AvenirCondensedHand.ttf'); } 
-@font-face { font-family: JimmyScript-Rg; src: url('JimmyScript-Rg.otf'); } 
+
 
 /* CSS Document */
 
@@ -78,8 +77,8 @@ ul, li {
 #base930 #interior_contenido p {
 	margin: 0px;
 	padding: 0px;
-	font-family: JimmyScript-Rg,Verdana, Geneva, sans-serif;
-	font-size: 25px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 17px;
 	color: #A28769;
 }
 #base930 #interior_contenido li {
@@ -203,6 +202,7 @@ img {
 	font-size: 30px;
     color: gainsboro;
 }
-
 a{text-decoration:none;color: #A28769;}
-p{font-family: AvenirCondensedHand;}
+#legible{
+	font-family:Verdana,Arial, Helvetica, sans-serif;
+}
